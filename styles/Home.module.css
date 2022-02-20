@@ -1,0 +1,196 @@
+@import url("http://fonts.cdnfonts.com/css/batmanforeveralternate");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.title {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8rem;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+}
+
+.info {
+  padding-right: 1rem;
+}
+
+.ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+.li {
+  padding-right: 2.5rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+}
+
+.main {
+  width: 29rem;
+  font-family: "Quantico", sans-serif;
+  font-size: 15px;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+
+.para {
+  margin-top: 0px;
+  width: 100%;
+  height: 75%;
+}
+
+.image {
+  /* height: 14rem;
+  */
+  padding-top: 2rem;
+  height: 23rem;
+  width: 100%;
+}
+
+.button {
+  /* width: 9rem;
+  height: 3rem; */
+  font-size: 20px;
+  background-color: #e5e5e5;
+  color: black;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  /* margin-top: 2rem; */
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.header {
+  font-family: "BatmanForeverAlternate", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+  /* line-height: 26px; */
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.header>h1 {
+  margin-top: 100px;
+}
+
+.h1 {
+  margin: 0px;
+}
+
+.button_container {
+  border: 0.5px solid;
+  border-image-source: linear-gradient(90deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 38.89%);
+  width: 9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  border: 0.5px solid;
+}
+
+.lec3 {
+  width: 40%;
+
+  height: 100%;
+  padding: 1rem;
+  border: 0.5px solid white;
+  margin-top: 4rem;
+  text-align: end;
+  margin-right: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .title {
+    padding-left: 6rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .title {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .lec3 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 0.5px solid #fff;
+    margin-bottom: 2rem;
+  }
+
+  .image {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .info {
+    width: 12%;
+    padding: 0px;
+    margin-right: 1rem;
+  }
+
+  .main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 550px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .main {
+    width: 100%;
+  }
+}
