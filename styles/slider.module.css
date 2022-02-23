@@ -8,6 +8,15 @@
     background-color: black;
 }
 
-.image {
-    margin-left: 4rem;
+
+.padding{
+    padding-top: 8rem;
+}
+
+
+.active{
+    transform:scale(1.5);
+}
+.activ{
+    color:white;
 }

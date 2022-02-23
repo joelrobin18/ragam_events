@@ -63,10 +63,10 @@
 
 .image {
   /* height: 14rem;
-  */
   padding-top: 2rem;
-  height: 23rem;
-  width: 100%;
+  height: 40rem;
+  width: 30rem;
+  */
 }
 
 .button {
@@ -126,9 +126,9 @@
 }
 
 .lec3 {
-  width: 40%;
-
-  height: 100%;
+  
+  width:30%;
+  height: 70%;
   padding: 1rem;
   border: 0.5px solid white;
   margin-top: 4rem;

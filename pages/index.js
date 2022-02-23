@@ -62,7 +62,7 @@ export default function Home() {
 
         </div >
         <div className={styles.lec3}>
-          <Image src={img} alt="Not Sure" className={styles.image} />
+          <Image src={img} alt="Not Sure" height="600"/>
         </div>
       </div >
       <Slider />
