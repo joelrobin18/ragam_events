@@ -63,7 +63,7 @@ export default function Slide() {
 
         </div >
         <div className={styles.lec3}>
-          <Image src={img} alt="Not Sure" height="600"/>
+          <Image src={img} alt="Not Sure"  height="600"/>
         </div>
       </div >
     </div >
