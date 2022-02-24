@@ -10,13 +10,22 @@
 
 
 .padding{
-    padding-top: 8rem;
+    padding-top: 3rem;
 }
 
-
+.paddingnum{
+    padding-top: 2rem;
+    display: block;
+}
 .active{
     transform:scale(1.5);
 }
 .activ{
     color:white;
+}
+.displays{
+    display:none;
+}
+@media screen and (max-width:600px){
+
 }
