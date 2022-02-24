@@ -16,9 +16,12 @@
 .paddingnum{
     padding-top: 2rem;
     display: block;
+    width:240px;
+    height: 120px;
+    object-fit: cover;
 }
 .active{
-    transform:scale(1.5);
+    transform:scale(1.2);
 }
 .activ{
     color:white;
@@ -26,6 +29,16 @@
 .displays{
     display:none;
 }
+/*.images{
+    width:240px;
+    height:50px;
+}*/
 @media screen and (max-width:600px){
-
+.paddingnum{
+    padding-top: 2rem;
+    display: block;
+    width:150px;
+    height: 200px;
+    object-fit: cover;
+}
 }

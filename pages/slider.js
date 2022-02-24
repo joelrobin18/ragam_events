@@ -76,59 +76,20 @@ const [show7,setShow7]=useState(false)
 const [show8,setShow8]=useState(false)
 
   const Show1 =()=>{
-    setActive('1');
-    setShow1(true)
-    setShow2(false)
-    setShow3(false)
-    setShow4(false)
-    setShow5(false)
-    setShow6(false)
-    setShow7(false)
-    setShow8(false)
+    setActive('1'); ; setShow1(true) ; setShow2(false) ; setShow3(false) ; setShow4(false) ; setShow5(false) ; setShow6(false) ; setShow7(false) ; setShow8(false)
   }
   const Show2 =()=>{
-    setActive('2');
-    setShow1(false)
-    setShow2(true)
-    setShow3(false)
-    setShow4(false)
-    setShow5(false)
-    setShow6(false)
-    setShow7(false)
-    setShow8(false)
+    setActive('2'); ; setShow1(false) ; setShow2(true) ; setShow3(false) ; setShow4(false) ; setShow5(false) ; setShow6(false) ; setShow7(false) ; setShow8(false)
   }
   const Show3 =()=>{
-    setActive('3');
-    setShow1(false)
-    setShow2(false)
-    setShow3(true)
-    setShow4(false)
-    setShow5(false)
-    setShow6(false)
-    setShow7(false)
-    setShow8(false)
+    setActive('3'); ; setShow1(false) ; setShow2(false) ; setShow3(true) ; setShow4(false) ; setShow5(false) ; setShow6(false) ; setShow7(false) ; setShow8(false)
   }
   const Show4 =()=>{
     setActive('4');
-    setShow1(false)
-    setShow2(false)
-    setShow3(false)
-    setShow4(true)
-    setShow5(false)
-    setShow6(false)
-    setShow7(false)
-    setShow8(false)
+    setShow1(false) ;setShow2(false) ; setShow3(false) ; setShow4(true) ;setShow5(false) ; setShow6(false) ; setShow7(false) ;setShow8(false)
   }
   const Show5 =()=>{
-    setActive('5');
-    setShow1(false)
-    setShow2(false)
-    setShow3(false)
-    setShow4(false)
-    setShow5(true)
-    setShow6(false)
-    setShow7(false)
-    setShow8(false)
+    setActive('5'); ; setShow1(false) ; setShow2(false) ; setShow3(false) ; setShow4(false) ; setShow5(true) ; setShow6(false) ; setShow7(false) ; setShow8(false)
   }
   const Show6 =()=>{
     setActive('6');;  setShow1(false);  setShow2(false);  setShow3(false);  setShow4(false);  setShow5(false);  setShow6(true);  setShow7(false) ;  setShow8(false)
@@ -165,7 +126,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide className={active==='1'?styles.active:''}>
   <a href="#" onClick={Show1}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
@@ -173,7 +134,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide className={active==='2'?styles.active:''} >
     <a href="#" onClick={Show2}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
@@ -181,7 +142,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide  className={active==='3'?styles.active:''}>
    <a href="#" onClick={Show3}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
   </SwiperSlide>
@@ -189,7 +150,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide  className={active==='4'?styles.active:''}>
   <a href="#" onClick={Show4}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
@@ -197,7 +158,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide  className={active==='5'?styles.active:''}>
    <a href="#" onClick={Show5}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
@@ -205,7 +166,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide  className={active==='6'?styles.active:''}>
   <a href="#" onClick={Show6}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
@@ -213,7 +174,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide  className={active==='7'?styles.active:''}>
   <a href="#" onClick={Show7}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
@@ -221,7 +182,7 @@ const [show8,setShow8]=useState(false)
 <SwiperSlide  className={active==='8'?styles.active:''}>
   <a href="#" onClick={Show8}>
     <div className={styles.paddingnum }>
- <Image src={img} layout="responsive" height="100" width="240"/>
+ <Image src={img} layout="fill"/>
   </div>
     </a>
 </SwiperSlide>
